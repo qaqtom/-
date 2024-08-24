@@ -28,4 +28,5 @@ var removeElements = function (head, val) {
     return ele.next;
 };
 
+
 console.log(removeElements([1, 2, 4, 5], 1));
