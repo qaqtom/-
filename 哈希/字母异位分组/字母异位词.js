@@ -12,6 +12,7 @@ var groupAnagrams = function (strs) {
             map.set(key, [])
         }
         map.get(key).push(str)
+        console.log(123)
     }
     return [...map.values()]
 };
